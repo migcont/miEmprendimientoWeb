@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
+* {
+  box-size: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.limpiar {
+  clear: both;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navbar-container {
+  display: grid;
+  grid-column-gap: 20%;
+  grid-template-columns: auto auto;
+  background-color: #000000;
+  height: 3vh;
+  color: #ffffff;
+  padding: 2%;
+}
+.navbar-container img {
+  display: block;
+  width: 26px;
+}
+
+.itms-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.itms-navbar a {
+  color: #ffffff;
+  margin: 5px;
+}
+
+._curso {
+  display: block;
+  margin-bottom: 12px;
+  border-style: solid;
+  border-color: gray;
+  padding: 12px;
+}
+
+.--imagenCurso {
+  display: block;
+  width: 99%;
+  box-sizing: border-box;
+  padding: 1px;
+}
+
+.reaccion-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 0px;
+}
+
+.reaccion-container > div {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.--tituloCurso {
+  margin-left: 0;
+  margin-top: 2%;
+  font-size: 30px;
+  text-align: left;
+}
+
+.--textoCurso {
+  font-size: 14px;
+  text-align: left;
+  margin-left: 0;
+  margin-top: 2%;
+  line-height: 30px;
+}
+
+.--instructor {
+  font-size: 14px;
+  text-align: left;
+  margin-top: 2%;
+}
+
+._banner {
+  width: 80%;
+}
+._banner img {
+  box-sizing: border-box;
+  margin-left: 35%;
+  margin-right: 5%;
+}
+
+._curso {
+  display: block;
+  margin-bottom: 12px;
+  border-style: solid;
+  border-color: gray;
+  padding: 12px;
+}
+
+.--imagenCurso {
+  display: block;
+  width: 99%;
+  box-sizing: border-box;
+  padding: 1px;
+}
+
+.reaccion-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 0px;
+}
+
+.reaccion-container > div {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.--tituloCurso {
+  margin-left: 0;
+  margin-top: 2%;
+  font-size: 30px;
+  text-align: left;
+}
+
+.--textoCurso {
+  font-size: 14px;
+  text-align: left;
+  margin-left: 0;
+  margin-top: 2%;
+  line-height: 30px;
+}
+
+.--instructor {
+  font-size: 14px;
+  text-align: left;
+  margin-top: 2%;
+}
+
+.footer-container {
+  display: grid;
+  grid-column-gap: 20%;
+  grid-template-columns: auto auto;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 2%;
+}
+.footer-container a {
+  margin-left: 10%;
+  margin: 15px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-container h4 {
+  margin-left: 15%;
+}
+.footer-container button {
+  background: #ffa500;
+  font-size: 14px;
+  padding: 2px;
+  border-radius: 10%;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  padding: 2%;
+  margin: 2%;
+}
+
+.--imgInformacion {
+  width: 10vw;
+  display: inline-block;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.--masCursos {
+  background: gray;
+  color: #ffffff;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.--listaCursos {
+  font-size: 16px;
+  text-align: left;
+  padding: 15px;
+  list-style-type: circle;
+  margin-left: 5px;
+}
+
+.--tituloInformacion {
+  font-size: 16px;
+}
+
+.redes-sociales {
+  font-size: 16px;
+}
+.redes-sociales i {
+  margin: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: 100%;
+  }
+
+  .--imgInformacion {
+    width: 40vw;
+  }
+
+  .footer-container {
+    grid-template-columns: auto;
+  }
+  .footer-container a {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  .footer-container button {
+    width: 13%;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 50%;
+    margin-right: 15px;
+  }
+  .footer-container input {
+    display: block;
+    margin-top: 15px;
+    margin-left: 35%;
+    margin-right: 15px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

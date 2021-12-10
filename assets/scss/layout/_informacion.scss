@@ -1,0 +1,31 @@
+.--imgInformacion{
+width: 10vw;
+display: inline-block;
+background-color: $white;
+border-radius: 50%;
+}
+.--masCursos{
+background: gray;
+color:$white;
+font-size: $medium;
+margin:5px;
+}
+
+.--listaCursos{
+  font-size: $medium;
+  text-align: left;
+  padding:15px;
+  list-style-type:circle;
+  margin-left: 5px;
+}
+
+.--tituloInformacion{
+  font-size: $medium;
+}
+
+.redes-sociales{
+  font-size: $medium;
+  i{
+    margin: 5px;
+  }
+}

@@ -1,0 +1,26 @@
+.footer-container{
+  display: grid;
+  grid-column-gap: 20%;
+  grid-template-columns: auto auto;
+  background-color: $black;
+  color: $white;
+  padding: 2%;
+  a{
+    margin-left: 10%;
+    margin: 15px;
+    color:$white;
+    text-decoration: none;
+  }
+  h4{
+    margin-left: 15%;
+  }
+  button{
+    background: $orange;
+    font-size: $small;
+    padding: 2px;
+    border-radius:10%; ;
+  }
+  input{
+
+  }
+}

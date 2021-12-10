@@ -1,0 +1,21 @@
+//utils
+@import 'utils/_variables.scss';
+//BASE
+@import 'base/_reset.scss';
+@import 'base/_typography.scss';
+//
+//components
+
+@import 'components/_navbar.scss';
+@import 'components/_button.scss';
+@import 'components/_reaccion.scss';
+@import 'components/_banner.scss';
+@import 'components/_reaccion.scss';
+@import 'components/_footer.scss';
+
+@import 'layout/_grid.scss';
+@import 'layout/_container.scss';
+@import 'layout/_informacion.scss';
+@import 'layout/_media.scss';
+//themes
+@import 'themes/_themes.scss';

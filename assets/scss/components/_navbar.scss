@@ -1,0 +1,23 @@
+.navbar-container{
+  display: grid;
+  grid-column-gap: 20%;
+  grid-template-columns: auto auto;
+  background-color: $black;
+  height:3vh;
+  color: $white;
+  padding: 2%;
+  img{
+    display: block;
+    width: 26px;
+  }
+}
+
+.itms-navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  a{
+      color:$white;
+      margin: 5px;
+  }
+}

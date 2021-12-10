@@ -1,0 +1,33 @@
+@media only screen and (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: 100%;
+  }
+
+  .--imgInformacion{
+    width: 40vw;
+  }
+
+  .footer-container{
+    grid-template-columns: auto;
+    a{
+      width: 100%;
+      display: block;
+      text-align: center;
+    }
+    button{
+      width: 13%;
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 15px;
+      margin-left: 50%;
+      margin-right: 15px;
+    }
+    input{
+      display: block;
+      margin-top: 15px;
+      margin-left: 35%;
+      margin-right: 15px;
+    }
+  }
+
+}
