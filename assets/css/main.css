@@ -217,6 +217,9 @@ body {
   list-style-type: circle;
   margin-left: 5px;
 }
+.--listaCursos a {
+  text-decoration: none;
+}
 
 .--tituloInformacion {
   font-size: 16px;
