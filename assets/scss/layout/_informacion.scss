@@ -1,14 +1,14 @@
 .--imgInformacion{
-width: 10vw;
-display: inline-block;
-background-color: $white;
-border-radius: 50%;
+  width: 10vw;
+  display: inline-block;
+  background-color: $white;
+  border-radius: 50%;
 }
 .--masCursos{
-background: gray;
-color:$white;
-font-size: $medium;
-margin:5px;
+  background: gray;
+  color:$white;
+  font-size: $medium;
+  margin:5px;
 }
 
 .--listaCursos{
@@ -18,8 +18,8 @@ margin:5px;
   list-style-type:circle;
   margin-left: 5px;
   a{
-  text-decoration: none;
-}
+    text-decoration: none;
+  }
 }
 
 .--tituloInformacion{
