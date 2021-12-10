@@ -9,10 +9,17 @@
 
   .footer-container{
     grid-template-columns: auto;
+    h4{
+      padding:20px;
+      width: 50%;
+      text-align: center;
+      margin-left: 22%;
+    }
     a{
       width: 100%;
       display: block;
       text-align: center;
+      margin-top: 1px;
     }
     button{
       width: 13%;
